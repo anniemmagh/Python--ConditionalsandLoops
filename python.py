@@ -29,18 +29,32 @@
 # number = [0,1,2,3,4,5,6,7,8,9]
 # for i in number:
 #     print(i**2)
-n=100
-numbers = [] #initialisation
-for i in range(100):
-    numbers.append(i**2)
-    print(numbers) 
+# n=100
+# numbers = [] #initialisation
+# for i in range(100):
+#     numbers.append(i**2)
+#     print(numbers) 
 
 #connect loops and conditions
-n=100
-numbers = [] 
+# n=100
+# numbers = [] 
+# for i in range(100):
+#     if i % 2 ==0:
+#         numbers.append(i**2)
+
+
+
+n =100
+numbers = [] #initialisation
+numbers_even = []
 for i in range(100):
+    numbers.append(i**2)
     if i % 2 ==0:
-        numbers.append(i**2)
+        numbers_even.append(i**2)
+        print(numbers)
+        print(numbers_even)
+        print(len(numbers))
+        print(len(numbers_even))
         
     
 
