@@ -33,5 +33,15 @@ n=100
 numbers = [] #initialisation
 for i in range(100):
     numbers.append(i**2)
-    print(numbers)
+    print(numbers) 
+
+#connect loops and conditions
+n=100
+numbers = [] 
+for i in range(100):
+    if i % 2 ==0:
+        numbers.append(i**2)
+        
+    
+
 
